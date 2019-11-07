@@ -43,7 +43,7 @@ export const getSteps = (setState, getState) => {
         {
             id: 'optionInit',
             options: [
-                { value: 1, label: 'Eu quero conhecer a 4All! 😍', trigger: 'reactionTour' },
+                { value: 1, label: 'Eu quero conhecer a empresa! 😍', trigger: 'reactionTour' },
                 { value: 2, label: 'Eu Tenho horário marcado!', trigger: 'atendimento4All' },
                 {
                     value: 3, label: 'Eu tenho uma entrega!', trigger: () => {
@@ -118,26 +118,26 @@ export const getSteps = (setState, getState) => {
         {
             id: 'optionTour',
             options: [
-                { value: 1, label: 'Uhuu', trigger: 'uhuuInit' },
-                { value: 2, label: 'PHI', trigger: 'phi' },
-                { value: 3, label: 'Ground', trigger: 'ground' },
+                { value: 1, label: 'setor 1', trigger: 'setor1' },
+                { value: 2, label: 'setor 2', trigger: 'setor2' },
+                { value: 3, label: 'setor 3', trigger: 'setor3' },
             ],
         },
 
         {
-            id: 'uhuuInit',
+            id: 'setor1',
             message: 'Que ótimo! então vamos lá ',
             trigger: 'erroInit',
         },
 
         {
-            id: 'phi',
+            id: 'setor2',
             message: 'Que ótimo! então vamos lá',
             trigger: 'erroInit',
         },
 
         {
-            id: 'ground',
+            id: 'setor3',
             message: 'Que ótimo! então vamos lá',
             trigger: 'erroInit',
         },
