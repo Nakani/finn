@@ -1,0 +1,4 @@
+#Mon Sep 30 11:00:09 BRT 2019
+base.0=/Users/diogoguedes/Documents/Labs/Finn/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

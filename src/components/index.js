@@ -1,0 +1,1 @@
+export { ChatBot } from './bot/bot.component'
